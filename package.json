@@ -1,0 +1,32 @@
+{
+  "name": "lucawei-website",
+  "version": "1.0.0",
+  "description": "Luca's website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HSUAN221/LucaWei-website.git"
+  },
+  "keywords": [],
+  "author": "Luca Wei<lucaweidev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^2.6.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^10.12.4",
+    "next": "^13.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-next": "^13.3.1",
+    "prettier": "^2.8.8"
+  }
+}
