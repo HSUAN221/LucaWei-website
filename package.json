@@ -16,6 +16,7 @@
   "author": "Luca Wei<lucaweidev@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
     "@chakra-ui/react": "^2.6.0",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
