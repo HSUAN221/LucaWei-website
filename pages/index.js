@@ -34,7 +34,8 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         Luca Wei
                     </Heading>
-                    <p>Software Engineer (Artist / Developer / Designer )</p>
+                    <p>Software Engineer</p>
+                    <p>- Keep to learn new technologies of software development.</p>
                 </Box>
                 <Box
                 flexShrink={0}
@@ -132,7 +133,7 @@ const Page = () => {
                     Domain Knowledge
                 </Heading>
                 <ExpSection>
-                    <ExpItem>&bull; Electronic Design Automation (EDA)</ExpItem>
+                    <ExpItem>&bull; Physical Design Automation (PDA)</ExpItem>
                 </ExpSection>
                 <ExpSection>
                     <ExpItem>&bull; Computational Fluid Dynamic (CFD)</ExpItem>
