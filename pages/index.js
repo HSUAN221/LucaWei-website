@@ -12,6 +12,7 @@ import { LinkIcon } from "@chakra-ui/icons"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { BioSection, BioYear } from "../components/bio"
+import { ExpSection, ExpItem } from "../components/exp"
 
 const Page = () => {
     return (
@@ -99,6 +100,51 @@ const Page = () => {
                     Worked at Moldex3D, Taiwan (科盛科技)
                 </BioSection>
                 
+            </Section>
+
+            {/* expertise */}
+            <Section delay={0.2}>
+                <Heading as="h3" variant="section-title">
+                    Expertise
+                </Heading>
+                <Heading as="h2" size="sm">
+                    Software
+                </Heading>
+                <ExpSection>
+                    <ExpItem>&bull; C / C++ Programming</ExpItem>
+                </ExpSection>
+                <ExpSection>
+                    <ExpItem>&bull; Test-Driven Development (TDD)</ExpItem>
+                </ExpSection>
+                <ExpSection>
+                    <ExpItem>&bull; Object-Oriented Programming (OOP)</ExpItem>
+                </ExpSection>
+                <ExpSection>
+                    <ExpItem>&bull; DevOps</ExpItem>
+                </ExpSection>
+                <ExpSection>
+                    <ExpItem>&bull; Data Structures and Algorithms</ExpItem>
+                </ExpSection>
+                <ExpSection>
+                    <ExpItem>&bull; Design Pattern</ExpItem>
+                </ExpSection>
+                <Heading as="h2" size="sm">
+                    Domain Knowledge
+                </Heading>
+                <ExpSection>
+                    <ExpItem>&bull; Electronic Design Automation (EDA)</ExpItem>
+                </ExpSection>
+                <ExpSection>
+                    <ExpItem>&bull; Computational Fluid Dynamic (CFD)</ExpItem>
+                </ExpSection>
+                <ExpSection>
+                    <ExpItem>&bull; Numerical Analysis and Modeling</ExpItem>
+                </ExpSection>
+                <ExpSection>
+                    <ExpItem>&bull; Parallel Programming (MPI, OpenMP)</ExpItem>
+                </ExpSection>
+                
+
             </Section>
         </Container>
     )
