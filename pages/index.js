@@ -4,7 +4,6 @@ import {
     Heading,
     Image,
     useColorModeValue,
-    Link,
     Button
 } from "@chakra-ui/react"
 import NextLink from "next/link"
@@ -25,7 +24,7 @@ const Page = () => {
             align="center"
             css={{ backdropFilter: 'blur(10px)' }}
             >
-                Hello, I'm Luca in Taiwnan!
+                Hello, I&apos;m Luca in Taiwnan!
             </Box>
 
             {/* Profile */}
