@@ -6,7 +6,6 @@ import {
     Image,
     useColorModeValue,
     Button,
-    SimpleGrid,
     List,
     ListItem
 } from "@chakra-ui/react"
