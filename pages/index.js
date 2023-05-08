@@ -1,10 +1,14 @@
 import {
+    Link,
     Container,
     Box,
     Heading,
     Image,
     useColorModeValue,
-    Button
+    Button,
+    SimpleGrid,
+    List,
+    ListItem
 } from "@chakra-ui/react"
 import NextLink from "next/link"
 import { LinkIcon } from "@chakra-ui/icons"
@@ -13,6 +17,9 @@ import Paragraph from "../components/paragraph"
 import { BioSection, BioYear } from "../components/bio"
 import { ExpSection, ExpItem } from "../components/exp"
 import Layout from "../components/layouts/article"
+import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
+import { IoMdCall } from 'react-icons/io'
+import { MdOutlineMail } from 'react-icons/md'
 
 const Page = () => {
     return (
@@ -72,7 +79,7 @@ const Page = () => {
                     href="/works"
                     scroll={false}
                     rightIcon={<LinkIcon />}
-                    colorScheme="teal"
+                    colorScheme='facebook'
                     >
                         My portfolio
                     </Button>
@@ -145,8 +152,50 @@ const Page = () => {
                     <ExpSection>
                         <ExpItem>&bull; Parallel Programming (MPI, OpenMP)</ExpItem>
                     </ExpSection>
-                    
+                </Section>
 
+                {/* contact-info */}
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                        Contact Info
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Link href="https://github.com/HSUAN221" target="_blank">
+                                <Button
+                                variant="ghost"
+                                colorScheme='facebook'
+                                leftIcon={<IoLogoGithub />}
+                                >
+                                    @lucawei
+                                </Button>
+                            </Link>
+                        </ListItem>
+
+                        <ListItem>
+                            <Link href="https://www.linkedin.com/in/luca-wei-985887236/" target="_blank">
+                                <Button
+                                variant="ghost"
+                                colorScheme='facebook'
+                                leftIcon={<IoLogoLinkedin />}
+                                >
+                                    @lucawei
+                                </Button>
+                            </Link>
+                        </ListItem>
+
+                        <ListItem>
+                            <Button leftIcon={<IoMdCall />} colorScheme='facebook' variant="ghost">
+                                (+886) 987431232
+                            </Button>
+                        </ListItem>
+
+                        <ListItem>
+                            <Button leftIcon={<MdOutlineMail />} colorScheme='facebook' variant="ghost">
+                                lucaweidev@gmail.com
+                            </Button>
+                        </ListItem>
+                    </List>
                 </Section>
             </Container>
         </Layout>
