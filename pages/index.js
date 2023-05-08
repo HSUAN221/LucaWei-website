@@ -69,7 +69,9 @@ const Page = () => {
                         Work
                     </Heading>
                     <Paragraph>
-                        Paragraph
+                        I'm a c/c++ software developer based in Hsinchu.
+                        Passionate about planning and designing c/c++ program architectures in numerical solvers.
+                        Currently working in a company that develops computational fluid dynamics software.
                     </Paragraph>
                 </Section>
                 <Box align="center" my={4}>
